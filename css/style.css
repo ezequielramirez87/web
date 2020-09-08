@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+}
+body{
+    background-image: url(../img/fondo2.jpg);
+    background-size: cover;
+    padding: 0;
+}
+.navbar{
+    box-shadow: 0 2px 5px 0 rgb(0, 0, 0);
+    font-size: 2em;
+}
+.navbar-brand{
+    font-size: 1em;
+}
+#home{
+    background-image: url('../img/fondo.png');
+    background-size: cover;
+    padding-top: 120px;
+    min-height: 700px;
+    color: white;
+}
+.content-center{
+    margin: 0 auto 0px auto;
+    text-align: center;
+}
+#perfil{
+    max-width: 250px;
+    margin: 0 auto 30px auto;
+    border-radius: 50%;
+}
+.titulo{
+    font-size: 3em;
+}
+.btn{
+    font-size: 30px;
+    padding: 5px 20px;
+    min-width: 150px;
+    border-radius: 5px;
+}
+.btn-light{
+    color: #101010;
+    border: solid 2px #ffffff;
+    transition: 1s;
+}
+.btn i{
+    margin-left: 10px;
+}
+.btn:hover{
+    color:#ffffff;
+    background: transparent;
+}
+h2{
+    font-size: 50px;
+    color: #ffffff;
+}
+section{
+    padding: 80px 0;
+}
+.text-center{
+    font-size: 20px;
+    color: #ffffff;
+}
+.fondo-oscuro{
+    background: rgb(0, 0, 0 , 0.6);
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+h5{
+    font-size: 30px;
+}
+.form input{
+    width: 80%;
+    height: 40px;
+    margin: 20px 0;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.form textarea{
+    width: 80%;
+    height: 100px;
+    margin: 20px 0;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+li a{
+    margin-left: 30px;
+}
+.enviar{
+    background: #ffffff;
+    color: #101010;
+    border: solid 2px #ffffff;
+    transition: 1s;
+}
+.enviar:hover{
+    background:rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+
+#sobreMi .row{
+    margin-top:50px;
+}
+.redesSociales a{
+    color: #ffffff;
+    transition: 1s;
+    font-size: 20px;
+}
+.redesSociales a:hover{
+    color: #1FB0B2;
+}
+footer {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 50px;
+}
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    border-radius: 5px;
+}
+.navbar-nav .nav-link:hover{
+    background: #1FB0B2;
+
+} 
+.carousel-inner a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.carousel-inner a:hover{
+    color: #1FB0B2;
+}
+.navbar-brand:hover{
+    color: #1FB0B2 !important;
+}
+/*
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
